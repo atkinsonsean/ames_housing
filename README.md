@@ -1,14 +1,15 @@
-# AMES HOUSING DATA AND KAGGLE CHALLENGE
+# Ames Housing
 
-# TABLE OF CONTENTS
+# Table of Contents
 <a id='table_of_contents'></a><br>
 [Problem Statement](#section_1)<br>
 [Executive Summary](#section_2)<br>
 [Models and Conclusion](#section_3)<br>
 [Data Dictionary](#section_4)<br>
+[Datasets and Libraries Used](#section_5)<br>
 
 <a id='section_1'></a>
-# PROBLEM STATEMENT
+# Problem Statement
 Many of us believe that homeownership is a natural thing we all should aspire to. It is a sign that our hard work has paid off. It’s our way of saying to the world that we made it. 
 
 Unfortunately, this dream is becoming more fantasy than reality for millennials. <a href="https://www.inc.com/minda-zetlin/millennials-homeownership-student-debt-down-payment-apartment-list-study.html"> While 89% of millennials want to own a home, it will take a staggering <i>two decades</i> before 67% of them can afford one.</a>
@@ -30,7 +31,7 @@ And not how much a house should cost because one two blocks sold $60K above aski
 Our hope is by doing this we will help them make better purchasing decisions in the future.
 
 <a id='section_2'></a>
-# EXECUTIVE SUMMARY
+# Executive Summary
 [(Back to table of contents)](#table_of_contents)<br>
 Since this is more a labor of love for our fellow millennials, not profit, we wanted to do this with easily accessible information. We aim to have a turnkey process that can be used across North America.
 
@@ -61,7 +62,7 @@ While the results varied from model to model, we generally saw a final R2 score 
 Well, outside of our attempts with KNN, which on average had a final R2 score that was 6-7% lower than the other 3 model types we tested.
 
 <a id='section_3'></a>
-# MODELS
+# Models
 [(Back to table of contents)](#table_of_contents)<br>
 |Model|Parameters|CV Score|Training Score|Test Score|
 |:---|:---|:---|:---|:---|
@@ -81,9 +82,8 @@ While our model struggles a bit at higher price points, since millennials on ave
  
 What's more, while our tool can be a useful guide, once you get to those price points we would advised you to seek out more specialized help.
 
-
 <a id='section_4'></a>
-# DATA DICTIONARY
+# Data Dictionary
 [(Back to table of contents)](#table_of_contents)<br>
 
 |Feature|Type|Engineerd|Description|
@@ -102,3 +102,13 @@ What's more, while our tool can be a useful guide, once you get to those price p
 |**overall_qual**|*ordinal*|No|Rates the overall material and finish of the house (range: 1-10)|
 |**paved_drive**|*ordinal*|No|Whether a property has a paved driveway (range: 0-1)|
 |**total_sf**|*float*|Yes|Combined square footage of 1st floor, 2nd floor, basement area, open porch area, and wood deck area|
+
+<a id='section_5'></a>
+# Datasets and Libraries Used
+[(Back to table of contents)](#table_of_contents)<br>
+
+<b>Datasets:</b> 
+- <a href="https://www.kaggle.com/competitions/dsi-us-11-project-2-regression-challenge/data">Ames Housing Data</a>
+
+<b>Libraries:</b> 
+matplotlib, numpy, pandas, seaborn, and sklearn.
