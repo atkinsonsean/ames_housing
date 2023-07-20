@@ -1,4 +1,4 @@
-# Ames Housing
+# Machine Learning and Real Estate Forecasting
 
 # Table of Contents
 <a id='table_of_contents'></a><br>
@@ -34,6 +34,8 @@ Our hope is by doing this we will help them make better purchasing decisions in 
 # Executive Summary
 [(Back to table of contents)](#table_of_contents)<br>
 Since this is more a labor of love for our fellow millennials, not profit, we wanted to do this with easily accessible information. We aim to have a turnkey process that can be used across North America.
+
+And so, for our test case, we've picked Ames, Iowa.
 
 Why Ames?
 
